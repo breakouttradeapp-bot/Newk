@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Kundali AI</string>
+    <string name="tagline">Ancient Wisdom. Powered by AI.</string>
+    <string name="version">v1.0.0</string>
+    <string name="zodiac_wheel">Zodiac Wheel</string>
+
+    <!-- Home -->
+    <string name="welcome_title">✨ Kundali AI ✨</string>
+    <string name="welcome_subtitle">Discover your cosmic blueprint with AI-powered Vedic astrology</string>
+    <string name="generate_kundali">🔮 Generate Kundali</string>
+    <string name="daily_rashifal">📅 Daily Rashifal</string>
+    <string name="unlock_premium_pdf">⭐ Unlock Premium PDF</string>
+    <string name="what_you_get">What you get:</string>
+    <string name="select_language">Select Language</string>
+
+    <!-- Form -->
+    <string name="enter_details">Enter Your Details</string>
+    <string name="enter_details_sub">Accurate birth details ensure precise predictions</string>
+    <string name="hint_name">Full Name</string>
+    <string name="hint_dob">Date of Birth</string>
+    <string name="hint_tob">Time of Birth</string>
+    <string name="hint_pob">Place of Birth</string>
+    <string name="hint_language">Language</string>
+    <string name="generate_my_kundali">✨ Generate My Kundali</string>
+    <string name="generating_kundali">Reading your stars…</string>
+    <string name="data_secure">Your data is secure &amp; not stored permanently</string>
+
+    <!-- Result -->
+    <string name="your_kundali">Your Kundali</string>
+    <string name="download_pdf_paid">🔒 Download Full PDF – ₹49</string>
+    <string name="download_pdf_free">📥 Download Full PDF</string>
+    <string name="purchase_success">Purchase successful! Generating your PDF…</string>
+    <string name="purchase_cancelled">Purchase cancelled.</string>
+    <string name="open_pdf">Open PDF</string>
+    <string name="pdf_error">Error generating PDF. Please try again.</string>
+
+    <!-- Legal -->
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="terms_conditions">Terms &amp; Conditions</string>
+
+    <!-- AdMob (replace with real ID in production) -->
+    <string name="admob_app_id">ca-app-pub-3940256099942544~3347511713</string>
+</resources>

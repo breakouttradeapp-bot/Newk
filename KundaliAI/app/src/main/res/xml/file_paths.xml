@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <external-files-path name="kundali_pdfs" path="Documents/" />
+    <files-path name="kundali_pdfs_internal" path="." />
+</paths>

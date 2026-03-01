@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "com.kundaliai.app-mergeDebugResources-49:/layout/layout_kundali_basics_table.xml",
+        "source": "com.kundaliai.app-main-52:/layout/layout_kundali_basics_table.xml"
+    },
+    {
+        "merged": "com.kundaliai.app-mergeDebugResources-49:/layout/activity_splash.xml",
+        "source": "com.kundaliai.app-main-52:/layout/activity_splash.xml"
+    },
+    {
+        "merged": "com.kundaliai.app-mergeDebugResources-49:/layout/activity_result.xml",
+        "source": "com.kundaliai.app-main-52:/layout/activity_result.xml"
+    },
+    {
+        "merged": "com.kundaliai.app-mergeDebugResources-49:/layout/item_feature.xml",
+        "source": "com.kundaliai.app-main-52:/layout/item_feature.xml"
+    },
+    {
+        "merged": "com.kundaliai.app-mergeDebugResources-49:/layout/activity_kundali_form.xml",
+        "source": "com.kundaliai.app-main-52:/layout/activity_kundali_form.xml"
+    },
+    {
+        "merged": "com.kundaliai.app-mergeDebugResources-49:/layout/activity_webview.xml",
+        "source": "com.kundaliai.app-main-52:/layout/activity_webview.xml"
+    },
+    {
+        "merged": "com.kundaliai.app-mergeDebugResources-49:/layout/activity_home.xml",
+        "source": "com.kundaliai.app-main-52:/layout/activity_home.xml"
+    },
+    {
+        "merged": "com.kundaliai.app-mergeDebugResources-49:/layout/item_feature_row.xml",
+        "source": "com.kundaliai.app-main-52:/layout/item_feature_row.xml"
+    },
+    {
+        "merged": "com.kundaliai.app-mergeDebugResources-49:/layout/row_kundali_basic.xml",
+        "source": "com.kundaliai.app-main-52:/layout/row_kundali_basic.xml"
+    },
+    {
+        "merged": "com.kundaliai.app-mergeDebugResources-49:/layout/item_kundali_detail.xml",
+        "source": "com.kundaliai.app-main-52:/layout/item_kundali_detail.xml"
+    }
+]

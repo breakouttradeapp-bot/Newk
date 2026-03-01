@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_home_gradient">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        app:elevation="0dp">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            app:navigationIcon="@drawable/ic_back_arrow"
+            app:navigationIconTint="#FFD700" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/enter_details"
+                android:textSize="22sp"
+                android:textColor="#FFD700"
+                android:textStyle="bold"
+                android:layout_marginBottom="6dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/enter_details_sub"
+                android:textSize="13sp"
+                android:textColor="#90A4AE"
+                android:layout_marginBottom="24dp" />
+
+            <!-- Form Card -->
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardBackgroundColor="#20FFFFFF"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="0dp"
+                app:strokeColor="#30FFD700"
+                app:strokeWidth="1dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="20dp">
+
+                    <!-- Name -->
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/tilName"
+                        style="@style/Widget.Material3.TextInputLayout.OutlinedBox"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="16dp"
+                        android:hint="@string/hint_name"
+                        app:startIconDrawable="@drawable/ic_person"
+                        app:startIconTint="#FFD700"
+                        app:boxStrokeColor="#FFD700"
+                        app:hintTextColor="#FFD700">
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/etName"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColor="#FFFFFF"
+                            android:inputType="textPersonName|textCapWords"
+                            android:imeOptions="actionNext" />
+
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <!-- Date of Birth -->
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/tilDateOfBirth"
+                        style="@style/Widget.Material3.TextInputLayout.OutlinedBox"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="16dp"
+                        android:hint="@string/hint_dob"
+                        app:startIconDrawable="@drawable/ic_calendar"
+                        app:startIconTint="#FFD700"
+                        app:endIconMode="custom"
+                        app:endIconDrawable="@drawable/ic_calendar"
+                        app:endIconTint="#90A4AE"
+                        app:boxStrokeColor="#FFD700"
+                        app:hintTextColor="#FFD700">
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/etDateOfBirth"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColor="#FFFFFF"
+                            android:focusable="false"
+                            android:clickable="true"
+                            android:hint="dd/MM/yyyy"
+                            android:textColorHint="#546E7A" />
+
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <!-- Time of Birth -->
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/tilTimeOfBirth"
+                        style="@style/Widget.Material3.TextInputLayout.OutlinedBox"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="16dp"
+                        android:hint="@string/hint_tob"
+                        app:startIconDrawable="@drawable/ic_clock"
+                        app:startIconTint="#FFD700"
+                        app:endIconMode="custom"
+                        app:endIconDrawable="@drawable/ic_clock"
+                        app:endIconTint="#90A4AE"
+                        app:boxStrokeColor="#FFD700"
+                        app:hintTextColor="#FFD700">
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/etTimeOfBirth"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColor="#FFFFFF"
+                            android:focusable="false"
+                            android:clickable="true"
+                            android:hint="HH:MM (24hr)"
+                            android:textColorHint="#546E7A" />
+
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <!-- Place of Birth -->
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/tilPlaceOfBirth"
+                        style="@style/Widget.Material3.TextInputLayout.OutlinedBox"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="16dp"
+                        android:hint="@string/hint_pob"
+                        app:startIconDrawable="@drawable/ic_location"
+                        app:startIconTint="#FFD700"
+                        app:boxStrokeColor="#FFD700"
+                        app:hintTextColor="#FFD700">
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/etPlaceOfBirth"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColor="#FFFFFF"
+                            android:inputType="textPostalAddress"
+                            android:imeOptions="actionNext" />
+
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <!-- Language -->
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/tilLanguage"
+                        style="@style/Widget.Material3.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="8dp"
+                        android:hint="@string/hint_language"
+                        app:startIconDrawable="@drawable/ic_language"
+                        app:startIconTint="#FFD700"
+                        app:boxStrokeColor="#FFD700"
+                        app:hintTextColor="#FFD700">
+
+                        <AutoCompleteTextView
+                            android:id="@+id/acLanguage"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColor="#FFFFFF"
+                            android:background="@null"
+                            android:inputType="none" />
+
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <!-- Loading -->
+            <FrameLayout
+                android:id="@+id/progressContainer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:visibility="gone">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:padding="16dp">
+
+                    <ProgressBar
+                        android:layout_width="64dp"
+                        android:layout_height="64dp"
+                        android:indeterminateTint="#FFD700"
+                        style="?attr/progressBarStyle" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/generating_kundali"
+                        android:textColor="#B0BEC5"
+                        android:textSize="14sp"
+                        android:layout_marginTop="12dp" />
+
+                </LinearLayout>
+            </FrameLayout>
+
+            <!-- Generate Button -->
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnGenerate"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="24dp"
+                android:text="@string/generate_my_kundali"
+                android:textSize="16sp"
+                android:textColor="#1A1A2E"
+                app:icon="@drawable/ic_stars"
+                app:iconGravity="textStart"
+                app:cornerRadius="16dp"
+                app:backgroundTint="#FFD700" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="12dp"
+                android:text="@string/data_secure"
+                android:textSize="11sp"
+                android:textColor="#546E7A"
+                android:drawableStart="@drawable/ic_lock_small"
+                android:drawablePadding="4dp"
+                android:drawableTint="#546E7A" />
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

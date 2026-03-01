@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">कुंडली AI</string>
+    <string name="tagline">प्राचीन ज्ञान। AI द्वारे चालवलेले।</string>
+    <string name="version">v1.0.0</string>
+    <string name="zodiac_wheel">राशी चक्र</string>
+
+    <!-- Home -->
+    <string name="welcome_title">✨ कुंडली AI ✨</string>
+    <string name="welcome_subtitle">AI-चालित वैदिक ज्योतिषाने आपले वैश्विक नकाशा शोधा</string>
+    <string name="generate_kundali">🔮 कुंडली तयार करा</string>
+    <string name="daily_rashifal">📅 दैनिक राशिभविष्य</string>
+    <string name="unlock_premium_pdf">⭐ प्रीमियम PDF अनलॉक करा</string>
+    <string name="what_you_get">तुम्हाला काय मिळेल:</string>
+    <string name="select_language">भाषा निवडा</string>
+
+    <!-- Form -->
+    <string name="enter_details">आपला तपशील प्रविष्ट करा</string>
+    <string name="enter_details_sub">अचूक जन्म तपशील अचूक भविष्यवाणी देतो</string>
+    <string name="hint_name">पूर्ण नाव</string>
+    <string name="hint_dob">जन्म तारीख</string>
+    <string name="hint_tob">जन्म वेळ</string>
+    <string name="hint_pob">जन्म स्थान</string>
+    <string name="hint_language">भाषा</string>
+    <string name="generate_my_kundali">✨ माझी कुंडली तयार करा</string>
+    <string name="generating_kundali">तुमचे तारे वाचत आहे…</string>
+    <string name="data_secure">तुमचा डेटा सुरक्षित आहे आणि कायमस्वरूपी साठवला जात नाही</string>
+
+    <!-- Result -->
+    <string name="your_kundali">तुमची कुंडली</string>
+    <string name="download_pdf_paid">🔒 संपूर्ण PDF डाउनलोड करा – ₹49</string>
+    <string name="download_pdf_free">📥 संपूर्ण PDF डाउनलोड करा</string>
+    <string name="purchase_success">खरेदी यशस्वी! तुमची PDF तयार होत आहे…</string>
+    <string name="purchase_cancelled">खरेदी रद्द केली.</string>
+    <string name="open_pdf">PDF उघडा</string>
+    <string name="pdf_error">PDF तयार करताना त्रुटी. कृपया पुन्हा प्रयत्न करा.</string>
+
+    <!-- Legal -->
+    <string name="privacy_policy">गोपनीयता धोरण</string>
+    <string name="terms_conditions">अटी आणि शर्ती</string>
+
+    <string name="admob_app_id">ca-app-pub-3940256099942544~3347511713</string>
+</resources>

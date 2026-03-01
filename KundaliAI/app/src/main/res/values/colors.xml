@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Brand Colors -->
+    <color name="deep_blue">#0D1B2A</color>
+    <color name="purple">#3A0CA3</color>
+    <color name="purple_light">#7B2FBE</color>
+    <color name="gold">#FFD700</color>
+    <color name="gold_dark">#F0A500</color>
+
+    <!-- UI Colors -->
+    <color name="white">#FFFFFF</color>
+    <color name="white_20">#33FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="cosmic_bg">#0A0E1A</color>
+
+    <!-- Text Colors -->
+    <color name="text_primary">#FFFFFF</color>
+    <color name="text_secondary">#B0BEC5</color>
+    <color name="text_hint">#546E7A</color>
+    <color name="text_accent">#7986CB</color>
+
+    <!-- Material 3 Seeds -->
+    <color name="md_theme_primary">#FFD700</color>
+    <color name="md_theme_on_primary">#0D1B2A</color>
+    <color name="md_theme_background">#0D1B2A</color>
+    <color name="md_theme_surface">#151C2C</color>
+    <color name="md_theme_on_surface">#E0E0E0</color>
+    <color name="md_theme_on_background">#E0E0E0</color>
+</resources>

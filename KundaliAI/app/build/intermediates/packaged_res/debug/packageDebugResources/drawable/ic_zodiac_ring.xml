@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+
+    <!-- Outer ring -->
+    <path
+        android:strokeColor="#FFD700"
+        android:strokeWidth="3"
+        android:fillColor="#00000000"
+        android:pathData="M100,10 A90,90 0 1,1 99.99,10 Z" />
+
+    <!-- Inner ring -->
+    <path
+        android:strokeColor="#3A0CA3"
+        android:strokeWidth="2"
+        android:fillColor="#00000000"
+        android:pathData="M100,30 A70,70 0 1,1 99.99,30 Z" />
+
+    <!-- Center OM symbol circle -->
+    <path
+        android:fillColor="#FFD700"
+        android:pathData="M100,80 A20,20 0 1,1 99.99,80 Z" />
+
+    <!-- Star/sparkle decorations at cardinal points -->
+    <path
+        android:fillColor="#FFD700"
+        android:pathData="M100,5 L102,11 L108,11 L103,15 L105,21 L100,17 L95,21 L97,15 L92,11 L98,11 Z" />
+
+    <path
+        android:fillColor="#3A0CA3"
+        android:strokeColor="#FFD700"
+        android:strokeWidth="1"
+        android:pathData="M5,100 L7,106 L13,106 L8,110 L10,116 L5,112 L0,116 L2,110 L-3,106 L3,106 Z" />
+
+    <path
+        android:fillColor="#3A0CA3"
+        android:strokeColor="#FFD700"
+        android:strokeWidth="1"
+        android:pathData="M195,100 L197,106 L203,106 L198,110 L200,116 L195,112 L190,116 L192,110 L187,106 L193,106 Z" />
+
+    <path
+        android:fillColor="#FFD700"
+        android:pathData="M100,179 L102,185 L108,185 L103,189 L105,195 L100,191 L95,195 L97,189 L92,185 L98,185 Z" />
+
+</vector>

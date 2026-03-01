@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Theme.KundaliAI" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/gold</item>
+        <item name="colorOnPrimary">@color/deep_blue</item>
+        <item name="colorPrimaryVariant">#2A1F00</item>
+        <item name="colorSecondary">#7B6CF6</item>
+        <item name="colorOnSecondary">@color/white</item>
+
+        <item name="android:colorBackground">@color/deep_blue</item>
+        <item name="colorOnBackground">@color/text_primary</item>
+        <item name="colorSurface">#151C2C</item>
+        <item name="colorOnSurface">@color/text_primary</item>
+
+        <item name="android:statusBarColor">#0D1B2A</item>
+        <item name="android:navigationBarColor">#0D1B2A</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="23">false</item>
+
+        <!-- Toolbar styling -->
+        <item name="toolbarStyle">@style/Widget.KundaliAI.Toolbar</item>
+        <item name="materialButtonStyle">@style/Widget.KundaliAI.Button</item>
+    </style>
+
+    <style name="Theme.KundaliAI.Splash" parent="Theme.KundaliAI">
+        <item name="android:windowBackground">@color/deep_blue</item>
+    </style>
+
+    <style name="Widget.KundaliAI.Toolbar" parent="Widget.MaterialComponents.Toolbar">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="titleTextColor">@color/gold</item>
+    </style>
+
+    <style name="Widget.KundaliAI.Button" parent="Widget.MaterialComponents.Button">
+        <item name="cornerRadius">16dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextAppearance.KundaliAI.Title" parent="TextAppearance.MaterialComponents.Headline6">
+        <item name="android:textColor">@color/gold</item>
+    </style>
+
+</resources>

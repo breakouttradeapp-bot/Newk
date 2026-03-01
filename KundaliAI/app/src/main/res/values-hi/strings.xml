@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">कुंडली AI</string>
+    <string name="tagline">प्राचीन ज्ञान। AI द्वारा संचालित।</string>
+    <string name="version">v1.0.0</string>
+    <string name="zodiac_wheel">राशि चक्र</string>
+
+    <!-- Home -->
+    <string name="welcome_title">✨ कुंडली AI ✨</string>
+    <string name="welcome_subtitle">AI-संचालित वैदिक ज्योतिष से अपना ब्रह्मांडीय नक्शा खोजें</string>
+    <string name="generate_kundali">🔮 कुंडली बनाएं</string>
+    <string name="daily_rashifal">📅 दैनिक राशिफल</string>
+    <string name="unlock_premium_pdf">⭐ प्रीमियम PDF अनलॉक करें</string>
+    <string name="what_you_get">आपको क्या मिलेगा:</string>
+    <string name="select_language">भाषा चुनें</string>
+
+    <!-- Form -->
+    <string name="enter_details">अपना विवरण दर्ज करें</string>
+    <string name="enter_details_sub">सटीक जन्म विवरण से सटीक भविष्यवाणी होती है</string>
+    <string name="hint_name">पूरा नाम</string>
+    <string name="hint_dob">जन्म तिथि</string>
+    <string name="hint_tob">जन्म समय</string>
+    <string name="hint_pob">जन्म स्थान</string>
+    <string name="hint_language">भाषा</string>
+    <string name="generate_my_kundali">✨ मेरी कुंडली बनाएं</string>
+    <string name="generating_kundali">आपके तारे पढ़े जा रहे हैं…</string>
+    <string name="data_secure">आपका डेटा सुरक्षित है और स्थायी रूप से संग्रहीत नहीं है</string>
+
+    <!-- Result -->
+    <string name="your_kundali">आपकी कुंडली</string>
+    <string name="download_pdf_paid">🔒 पूरी PDF डाउनलोड करें – ₹49</string>
+    <string name="download_pdf_free">📥 पूरी PDF डाउनलोड करें</string>
+    <string name="purchase_success">खरीद सफल! आपकी PDF तैयार हो रही है…</string>
+    <string name="purchase_cancelled">खरीद रद्द की गई।</string>
+    <string name="open_pdf">PDF खोलें</string>
+    <string name="pdf_error">PDF बनाने में त्रुटि। कृपया पुनः प्रयास करें।</string>
+
+    <!-- Legal -->
+    <string name="privacy_policy">गोपनीयता नीति</string>
+    <string name="terms_conditions">नियम एवं शर्तें</string>
+
+    <string name="admob_app_id">ca-app-pub-3940256099942544~3347511713</string>
+</resources>
