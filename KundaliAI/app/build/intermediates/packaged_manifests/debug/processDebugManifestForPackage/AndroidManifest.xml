@@ -8,6 +8,7 @@
         android:minSdkVersion="24"
         android:targetSdkVersion="34" />
 
+    <!-- Permissions -->
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="com.android.vending.BILLING" />
@@ -46,13 +47,10 @@
     <application
         android:allowBackup="false"
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-        android:dataExtractionRules="@xml/data_extraction_rules"
         android:debuggable="true"
         android:extractNativeLibs="false"
-        android:fullBackupContent="@xml/backup_rules"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
-        android:networkSecurityConfig="@xml/network_security_config"
         android:roundIcon="@drawable/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.KundaliAI" >
@@ -61,12 +59,11 @@
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
             android:value="@string/admob_app_id" />
-
-        <!-- Disable Automatic Initialization for better control -->
         <meta-data
             android:name="com.google.android.gms.ads.flag.OPTIMIZE_INITIALIZATION"
             android:value="true" />
 
+        <!-- Splash -->
         <activity
             android:name="com.kundaliai.app.ui.splash.SplashActivity"
             android:exported="true"
@@ -78,26 +75,34 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <!-- Home -->
         <activity
             android:name="com.kundaliai.app.ui.home.HomeActivity"
             android:exported="false"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="adjustResize" />
+
+        <!-- Form -->
         <activity
             android:name="com.kundaliai.app.ui.form.KundaliFormActivity"
             android:exported="false"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="adjustResize" />
+
+        <!-- Result -->
         <activity
             android:name="com.kundaliai.app.ui.result.ResultActivity"
             android:exported="false"
             android:screenOrientation="portrait" />
+
+        <!-- WebView -->
         <activity
             android:name="com.kundaliai.app.ui.webview.WebViewActivity"
             android:exported="false"
             android:screenOrientation="portrait" />
 
-        <!-- FileProvider for PDF sharing -->
+        <!-- FileProvider for PDF -->
         <provider
             android:name="androidx.core.content.FileProvider"
             android:authorities="com.kundaliai.app.provider"

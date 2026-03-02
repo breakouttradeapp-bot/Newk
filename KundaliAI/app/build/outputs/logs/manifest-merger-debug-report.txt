@@ -1,20 +1,20 @@
 -- Merging decision tree log ---
 provider#androidx.core.content.FileProvider
-INJECTED from /root/Newk/KundaliAI/app/src/main/AndroidManifest.xml:65:9-73:20
+INJECTED from /root/Newk/KundaliAI/app/src/main/AndroidManifest.xml:70:9-80:20
 	android:grantUriPermissions
-		ADDED from /root/Newk/KundaliAI/app/src/main/AndroidManifest.xml:69:13-47
+		ADDED from /root/Newk/KundaliAI/app/src/main/AndroidManifest.xml:74:13-47
 	android:authorities
 		INJECTED from /root/Newk/KundaliAI/app/src/main/AndroidManifest.xml
-		ADDED from /root/Newk/KundaliAI/app/src/main/AndroidManifest.xml:67:13-60
+		ADDED from /root/Newk/KundaliAI/app/src/main/AndroidManifest.xml:72:13-60
 	android:exported
-		ADDED from /root/Newk/KundaliAI/app/src/main/AndroidManifest.xml:68:13-37
+		ADDED from /root/Newk/KundaliAI/app/src/main/AndroidManifest.xml:73:13-37
 	android:name
-		ADDED from /root/Newk/KundaliAI/app/src/main/AndroidManifest.xml:66:13-62
+		ADDED from /root/Newk/KundaliAI/app/src/main/AndroidManifest.xml:71:13-62
 manifest
-ADDED from /root/Newk/KundaliAI/app/src/main/AndroidManifest.xml:2:1-76:12
-INJECTED from /root/Newk/KundaliAI/app/src/main/AndroidManifest.xml:2:1-76:12
-INJECTED from /root/Newk/KundaliAI/app/src/main/AndroidManifest.xml:2:1-76:12
-INJECTED from /root/Newk/KundaliAI/app/src/main/AndroidManifest.xml:2:1-76:12
+ADDED from /root/Newk/KundaliAI/app/src/main/AndroidManifest.xml:2:1-84:12
+INJECTED from /root/Newk/KundaliAI/app/src/main/AndroidManifest.xml:2:1-84:12
+INJECTED from /root/Newk/KundaliAI/app/src/main/AndroidManifest.xml:2:1-84:12
+INJECTED from /root/Newk/KundaliAI/app/src/main/AndroidManifest.xml:2:1-84:12
 MERGED from [androidx.databinding:viewbinding:8.3.2] /root/.gradle/caches/transforms-4/2c51a9d1601074b9f2d178bca5078854/transformed/jetified-viewbinding-8.3.2/AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.android.material:material:1.12.0] /root/.gradle/caches/transforms-4/5f5edeab46aa1ef3017383e3807cf924/transformed/material-1.12.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /root/.gradle/caches/transforms-4/51c47d072365a7dcb7fee2dd9d2a13d5/transformed/constraintlayout-2.1.4/AndroidManifest.xml:2:1-11:12
@@ -105,7 +105,7 @@ MERGED from [androidx.sqlite:sqlite:2.1.0] /root/.gradle/caches/transforms-4/fa3
 	xmlns:android
 		ADDED from /root/Newk/KundaliAI/app/src/main/AndroidManifest.xml:2:11-69
 uses-permission#android.permission.INTERNET
-ADDED from /root/Newk/KundaliAI/app/src/main/AndroidManifest.xml:5:5-67
+ADDED from /root/Newk/KundaliAI/app/src/main/AndroidManifest.xml:6:5-67
 MERGED from [com.google.android.gms:play-services-ads-lite:23.2.0] /root/.gradle/caches/transforms-4/2072534440d4f0d4ab353cb20daa4337/transformed/jetified-play-services-ads-lite-23.2.0/AndroidManifest.xml:24:5-67
 MERGED from [com.google.android.gms:play-services-ads-lite:23.2.0] /root/.gradle/caches/transforms-4/2072534440d4f0d4ab353cb20daa4337/transformed/jetified-play-services-ads-lite-23.2.0/AndroidManifest.xml:24:5-67
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.1.2] /root/.gradle/caches/transforms-4/072a9d2cc95333a9130f35052346d534/transformed/jetified-play-services-measurement-sdk-api-20.1.2/AndroidManifest.xml:23:5-67
@@ -113,9 +113,9 @@ MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.1.2] /r
 MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.8] /root/.gradle/caches/transforms-4/591ded1b091635a15a8d12cc1052437f/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:25:5-67
 MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.8] /root/.gradle/caches/transforms-4/591ded1b091635a15a8d12cc1052437f/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:25:5-67
 	android:name
-		ADDED from /root/Newk/KundaliAI/app/src/main/AndroidManifest.xml:5:22-64
+		ADDED from /root/Newk/KundaliAI/app/src/main/AndroidManifest.xml:6:22-64
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from /root/Newk/KundaliAI/app/src/main/AndroidManifest.xml:6:5-79
+ADDED from /root/Newk/KundaliAI/app/src/main/AndroidManifest.xml:7:5-79
 MERGED from [com.google.android.gms:play-services-ads-lite:23.2.0] /root/.gradle/caches/transforms-4/2072534440d4f0d4ab353cb20daa4337/transformed/jetified-play-services-ads-lite-23.2.0/AndroidManifest.xml:25:5-79
 MERGED from [com.google.android.gms:play-services-ads-lite:23.2.0] /root/.gradle/caches/transforms-4/2072534440d4f0d4ab353cb20daa4337/transformed/jetified-play-services-ads-lite-23.2.0/AndroidManifest.xml:25:5-79
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.1.2] /root/.gradle/caches/transforms-4/072a9d2cc95333a9130f35052346d534/transformed/jetified-play-services-measurement-sdk-api-20.1.2/AndroidManifest.xml:24:5-79
@@ -127,18 +127,18 @@ MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.8] /root
 MERGED from [com.google.android.datatransport:transport-runtime:3.1.8] /root/.gradle/caches/transforms-4/707eae2827a1fdbf49d0cf1aad9a3379/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:22:5-79
 MERGED from [com.google.android.datatransport:transport-runtime:3.1.8] /root/.gradle/caches/transforms-4/707eae2827a1fdbf49d0cf1aad9a3379/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:22:5-79
 	android:name
-		ADDED from /root/Newk/KundaliAI/app/src/main/AndroidManifest.xml:6:22-76
+		ADDED from /root/Newk/KundaliAI/app/src/main/AndroidManifest.xml:7:22-76
 uses-permission#com.android.vending.BILLING
-ADDED from /root/Newk/KundaliAI/app/src/main/AndroidManifest.xml:7:5-67
+ADDED from /root/Newk/KundaliAI/app/src/main/AndroidManifest.xml:8:5-67
 MERGED from [com.android.billingclient:billing-ktx:6.2.1] /root/.gradle/caches/transforms-4/bb4d3d111b59270544e2734c4652136d/transformed/jetified-billing-ktx-6.2.1/AndroidManifest.xml:9:5-67
 MERGED from [com.android.billingclient:billing-ktx:6.2.1] /root/.gradle/caches/transforms-4/bb4d3d111b59270544e2734c4652136d/transformed/jetified-billing-ktx-6.2.1/AndroidManifest.xml:9:5-67
 MERGED from [com.android.billingclient:billing:6.2.1] /root/.gradle/caches/transforms-4/b81424e97e95f46216f22e295752f34e/transformed/jetified-billing-6.2.1/AndroidManifest.xml:10:5-67
 MERGED from [com.android.billingclient:billing:6.2.1] /root/.gradle/caches/transforms-4/b81424e97e95f46216f22e295752f34e/transformed/jetified-billing-6.2.1/AndroidManifest.xml:10:5-67
 	android:name
-		ADDED from /root/Newk/KundaliAI/app/src/main/AndroidManifest.xml:7:22-64
+		ADDED from /root/Newk/KundaliAI/app/src/main/AndroidManifest.xml:8:22-64
 application
-ADDED from /root/Newk/KundaliAI/app/src/main/AndroidManifest.xml:9:5-75:19
-INJECTED from /root/Newk/KundaliAI/app/src/main/AndroidManifest.xml:9:5-75:19
+ADDED from /root/Newk/KundaliAI/app/src/main/AndroidManifest.xml:10:5-82:19
+INJECTED from /root/Newk/KundaliAI/app/src/main/AndroidManifest.xml:10:5-82:19
 MERGED from [com.google.android.material:material:1.12.0] /root/.gradle/caches/transforms-4/5f5edeab46aa1ef3017383e3807cf924/transformed/material-1.12.0/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.12.0] /root/.gradle/caches/transforms-4/5f5edeab46aa1ef3017383e3807cf924/transformed/material-1.12.0/AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /root/.gradle/caches/transforms-4/51c47d072365a7dcb7fee2dd9d2a13d5/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
@@ -192,47 +192,43 @@ MERGED from [com.google.android.datatransport:transport-runtime:3.1.8] /root/.gr
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.13.1] /root/.gradle/caches/transforms-4/9354eece957580627f3c3ebfd87bba1f/transformed/core-1.13.1/AndroidManifest.xml:28:18-86
 	android:supportsRtl
-		ADDED from /root/Newk/KundaliAI/app/src/main/AndroidManifest.xml:16:9-35
+		ADDED from /root/Newk/KundaliAI/app/src/main/AndroidManifest.xml:15:9-35
 	android:label
-		ADDED from /root/Newk/KundaliAI/app/src/main/AndroidManifest.xml:14:9-41
-	android:fullBackupContent
-		ADDED from /root/Newk/KundaliAI/app/src/main/AndroidManifest.xml:12:9-54
+		ADDED from /root/Newk/KundaliAI/app/src/main/AndroidManifest.xml:13:9-41
 	android:roundIcon
-		ADDED from /root/Newk/KundaliAI/app/src/main/AndroidManifest.xml:15:9-56
+		ADDED from /root/Newk/KundaliAI/app/src/main/AndroidManifest.xml:14:9-56
 	tools:targetApi
-		ADDED from /root/Newk/KundaliAI/app/src/main/AndroidManifest.xml:19:9-29
+		ADDED from /root/Newk/KundaliAI/app/src/main/AndroidManifest.xml:17:9-29
 	android:icon
-		ADDED from /root/Newk/KundaliAI/app/src/main/AndroidManifest.xml:13:9-45
+		ADDED from /root/Newk/KundaliAI/app/src/main/AndroidManifest.xml:12:9-45
 	android:allowBackup
-		ADDED from /root/Newk/KundaliAI/app/src/main/AndroidManifest.xml:10:9-36
+		ADDED from /root/Newk/KundaliAI/app/src/main/AndroidManifest.xml:11:9-36
 	android:theme
-		ADDED from /root/Newk/KundaliAI/app/src/main/AndroidManifest.xml:17:9-47
-	android:networkSecurityConfig
-		ADDED from /root/Newk/KundaliAI/app/src/main/AndroidManifest.xml:18:9-69
-	android:dataExtractionRules
-		ADDED from /root/Newk/KundaliAI/app/src/main/AndroidManifest.xml:11:9-65
+		ADDED from /root/Newk/KundaliAI/app/src/main/AndroidManifest.xml:16:9-47
 meta-data#com.google.android.gms.ads.APPLICATION_ID
-ADDED from /root/Newk/KundaliAI/app/src/main/AndroidManifest.xml:22:9-24:52
+ADDED from /root/Newk/KundaliAI/app/src/main/AndroidManifest.xml:20:9-23:45
+	tools:replace
+		ADDED from /root/Newk/KundaliAI/app/src/main/AndroidManifest.xml:23:13-42
 	android:value
-		ADDED from /root/Newk/KundaliAI/app/src/main/AndroidManifest.xml:24:13-49
+		ADDED from /root/Newk/KundaliAI/app/src/main/AndroidManifest.xml:22:13-49
 	android:name
-		ADDED from /root/Newk/KundaliAI/app/src/main/AndroidManifest.xml:23:13-69
+		ADDED from /root/Newk/KundaliAI/app/src/main/AndroidManifest.xml:21:13-69
 meta-data#com.google.android.gms.ads.flag.OPTIMIZE_INITIALIZATION
-ADDED from /root/Newk/KundaliAI/app/src/main/AndroidManifest.xml:27:9-29:36
+ADDED from /root/Newk/KundaliAI/app/src/main/AndroidManifest.xml:25:9-27:36
 	android:value
-		ADDED from /root/Newk/KundaliAI/app/src/main/AndroidManifest.xml:29:13-33
+		ADDED from /root/Newk/KundaliAI/app/src/main/AndroidManifest.xml:27:13-33
 	android:name
-		ADDED from /root/Newk/KundaliAI/app/src/main/AndroidManifest.xml:28:13-83
+		ADDED from /root/Newk/KundaliAI/app/src/main/AndroidManifest.xml:26:13-83
 activity#com.kundaliai.app.ui.splash.SplashActivity
-ADDED from /root/Newk/KundaliAI/app/src/main/AndroidManifest.xml:31:9-40:20
+ADDED from /root/Newk/KundaliAI/app/src/main/AndroidManifest.xml:30:9-41:20
 	android:screenOrientation
-		ADDED from /root/Newk/KundaliAI/app/src/main/AndroidManifest.xml:35:13-49
+		ADDED from /root/Newk/KundaliAI/app/src/main/AndroidManifest.xml:34:13-49
 	android:exported
-		ADDED from /root/Newk/KundaliAI/app/src/main/AndroidManifest.xml:33:13-36
+		ADDED from /root/Newk/KundaliAI/app/src/main/AndroidManifest.xml:32:13-36
 	android:theme
-		ADDED from /root/Newk/KundaliAI/app/src/main/AndroidManifest.xml:34:13-58
+		ADDED from /root/Newk/KundaliAI/app/src/main/AndroidManifest.xml:33:13-58
 	android:name
-		ADDED from /root/Newk/KundaliAI/app/src/main/AndroidManifest.xml:32:13-53
+		ADDED from /root/Newk/KundaliAI/app/src/main/AndroidManifest.xml:31:13-53
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
 ADDED from /root/Newk/KundaliAI/app/src/main/AndroidManifest.xml:36:13-39:29
 action#android.intent.action.MAIN
@@ -244,47 +240,47 @@ ADDED from /root/Newk/KundaliAI/app/src/main/AndroidManifest.xml:38:17-77
 	android:name
 		ADDED from /root/Newk/KundaliAI/app/src/main/AndroidManifest.xml:38:27-74
 activity#com.kundaliai.app.ui.home.HomeActivity
-ADDED from /root/Newk/KundaliAI/app/src/main/AndroidManifest.xml:42:9-46:58
+ADDED from /root/Newk/KundaliAI/app/src/main/AndroidManifest.xml:44:9-48:58
 	android:screenOrientation
+		ADDED from /root/Newk/KundaliAI/app/src/main/AndroidManifest.xml:47:13-49
+	android:windowSoftInputMode
+		ADDED from /root/Newk/KundaliAI/app/src/main/AndroidManifest.xml:48:13-55
+	android:exported
+		ADDED from /root/Newk/KundaliAI/app/src/main/AndroidManifest.xml:46:13-37
+	android:name
 		ADDED from /root/Newk/KundaliAI/app/src/main/AndroidManifest.xml:45:13-49
-	android:windowSoftInputMode
-		ADDED from /root/Newk/KundaliAI/app/src/main/AndroidManifest.xml:46:13-55
-	android:exported
-		ADDED from /root/Newk/KundaliAI/app/src/main/AndroidManifest.xml:44:13-37
-	android:name
-		ADDED from /root/Newk/KundaliAI/app/src/main/AndroidManifest.xml:43:13-49
 activity#com.kundaliai.app.ui.form.KundaliFormActivity
-ADDED from /root/Newk/KundaliAI/app/src/main/AndroidManifest.xml:48:9-52:58
+ADDED from /root/Newk/KundaliAI/app/src/main/AndroidManifest.xml:51:9-55:58
 	android:screenOrientation
-		ADDED from /root/Newk/KundaliAI/app/src/main/AndroidManifest.xml:51:13-49
+		ADDED from /root/Newk/KundaliAI/app/src/main/AndroidManifest.xml:54:13-49
 	android:windowSoftInputMode
-		ADDED from /root/Newk/KundaliAI/app/src/main/AndroidManifest.xml:52:13-55
+		ADDED from /root/Newk/KundaliAI/app/src/main/AndroidManifest.xml:55:13-55
 	android:exported
-		ADDED from /root/Newk/KundaliAI/app/src/main/AndroidManifest.xml:50:13-37
+		ADDED from /root/Newk/KundaliAI/app/src/main/AndroidManifest.xml:53:13-37
 	android:name
-		ADDED from /root/Newk/KundaliAI/app/src/main/AndroidManifest.xml:49:13-56
+		ADDED from /root/Newk/KundaliAI/app/src/main/AndroidManifest.xml:52:13-56
 activity#com.kundaliai.app.ui.result.ResultActivity
-ADDED from /root/Newk/KundaliAI/app/src/main/AndroidManifest.xml:54:9-57:52
+ADDED from /root/Newk/KundaliAI/app/src/main/AndroidManifest.xml:58:9-61:52
 	android:screenOrientation
-		ADDED from /root/Newk/KundaliAI/app/src/main/AndroidManifest.xml:57:13-49
+		ADDED from /root/Newk/KundaliAI/app/src/main/AndroidManifest.xml:61:13-49
 	android:exported
-		ADDED from /root/Newk/KundaliAI/app/src/main/AndroidManifest.xml:56:13-37
+		ADDED from /root/Newk/KundaliAI/app/src/main/AndroidManifest.xml:60:13-37
 	android:name
-		ADDED from /root/Newk/KundaliAI/app/src/main/AndroidManifest.xml:55:13-53
+		ADDED from /root/Newk/KundaliAI/app/src/main/AndroidManifest.xml:59:13-53
 activity#com.kundaliai.app.ui.webview.WebViewActivity
-ADDED from /root/Newk/KundaliAI/app/src/main/AndroidManifest.xml:59:9-62:52
+ADDED from /root/Newk/KundaliAI/app/src/main/AndroidManifest.xml:64:9-67:52
 	android:screenOrientation
-		ADDED from /root/Newk/KundaliAI/app/src/main/AndroidManifest.xml:62:13-49
+		ADDED from /root/Newk/KundaliAI/app/src/main/AndroidManifest.xml:67:13-49
 	android:exported
-		ADDED from /root/Newk/KundaliAI/app/src/main/AndroidManifest.xml:61:13-37
+		ADDED from /root/Newk/KundaliAI/app/src/main/AndroidManifest.xml:66:13-37
 	android:name
-		ADDED from /root/Newk/KundaliAI/app/src/main/AndroidManifest.xml:60:13-55
+		ADDED from /root/Newk/KundaliAI/app/src/main/AndroidManifest.xml:65:13-55
 meta-data#android.support.FILE_PROVIDER_PATHS
-ADDED from /root/Newk/KundaliAI/app/src/main/AndroidManifest.xml:70:13-72:54
+ADDED from /root/Newk/KundaliAI/app/src/main/AndroidManifest.xml:76:13-78:54
 	android:resource
-		ADDED from /root/Newk/KundaliAI/app/src/main/AndroidManifest.xml:72:17-51
+		ADDED from /root/Newk/KundaliAI/app/src/main/AndroidManifest.xml:78:17-51
 	android:name
-		ADDED from /root/Newk/KundaliAI/app/src/main/AndroidManifest.xml:71:17-67
+		ADDED from /root/Newk/KundaliAI/app/src/main/AndroidManifest.xml:77:17-67
 uses-sdk
 INJECTED from /root/Newk/KundaliAI/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /root/Newk/KundaliAI/app/src/main/AndroidManifest.xml
