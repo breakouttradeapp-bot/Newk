@@ -16,16 +16,6 @@
         android:theme="@style/Theme.KundaliAI"
         tools:targetApi="34">
 
-        <!-- AdMob App ID -->
-        <meta-data
-            android:name="com.google.android.gms.ads.APPLICATION_ID"
-            android:value="@string/admob_app_id"
-            tools:replace="android:value" />
-
-        <meta-data
-            android:name="com.google.android.gms.ads.flag.OPTIMIZE_INITIALIZATION"
-            android:value="true" />
-
         <!-- Splash -->
         <activity
             android:name=".ui.splash.SplashActivity"

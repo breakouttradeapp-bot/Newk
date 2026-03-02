@@ -55,14 +55,6 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.KundaliAI" >
 
-        <!-- AdMob App ID -->
-        <meta-data
-            android:name="com.google.android.gms.ads.APPLICATION_ID"
-            android:value="@string/admob_app_id" />
-        <meta-data
-            android:name="com.google.android.gms.ads.flag.OPTIMIZE_INITIALIZATION"
-            android:value="true" />
-
         <!-- Splash -->
         <activity
             android:name="com.kundaliai.app.ui.splash.SplashActivity"
